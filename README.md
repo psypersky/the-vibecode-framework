@@ -76,7 +76,7 @@ Actions are just triggered in the components, no logic is executed there.
 
 ```js
 ...
-    <div onClick={actions.submitForm()}/>
+    <div onClick={actions.submitForm}/>
 ...
 
 ```
