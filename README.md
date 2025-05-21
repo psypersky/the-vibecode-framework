@@ -4,7 +4,7 @@ Apps that build themselves
 
 ## Abstract
 
-A new way of programming requires a new architecture, we all have seen how hard is for AI to mantain coeherence when building a codebase. This framework is a set of rules designed to optmise context performance in AI models. The main idea is to micro modularize, nothing new, but humans have demostrated to be really bad at this hence AI is too.
+A new way of programming requires a new architecture, we all have seen how hard it is for AI to mantain coeherence when building a codebase. This framework is a set of rules designed to optmise context performance in AI models. The main idea is to micro modularize, nothing new, but humans have demostrated to be really bad at this hence AI is too.
 
 Appart from building themselves these apps are AI first, AI should have access to all state of the app by default, should be introspective and be able to read its configuration, it should be self configuring.
 
@@ -49,6 +49,8 @@ Some advantages:
 Bug debugging: An error happens somewhere you send the full state of your app to your logger, complete and absolute visibility!
 
 Remote control: Given that the view responds to state, you could trivially implement a remote control of the state hence the app. Image this: A user calls you because the app doesn't work, you login into your admin panel, get control of his app, see his full app state, figure what's happening in real time, fix it and bum, user happy.
+
+Easy to implement complex tasks: Imagine this, you want your AI to give you suggestions based on what you type on every input on your app, imagine the pain of creating a freaking reducer for every single input in the whole APP! NO! Its already there, on the single state, there, done, finito! bye!
 
 ### Independent View
 
