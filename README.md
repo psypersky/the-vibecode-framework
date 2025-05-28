@@ -8,6 +8,10 @@ We all know the current state of LLMs for Vibe Coding; they won't go very far be
 
 What we need is to write instructions for our projects like scientific papers or RFCs. But that would be incredibly tedious. So instead, we need to create 'Vibe Frameworks'—a set of pre-written documents that describe how the LLM would build a system. Specific technologies, patterns, specific everything—a precooked architecture for the LLM to follow. It could even be a combination of actual 'classic' source code frameworks designed specifically for VibeCoding and documents. This combo could make LLMs actually build—not just ramble.
 
+## Random Facts
+
+- AI is not Generative AI, people is still treating that way. That's why 1/4 companies using AI fail.
+
 ## Goals
 
 - Find the best architecture for AI Vibe Coding
